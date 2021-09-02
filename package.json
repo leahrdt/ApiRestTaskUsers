@@ -1,0 +1,31 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "webpack": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.3",
+    "normalizr": "^3.6.1",
+    "uuid": "^8.3.2",
+    "webpack": "^5.50.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "webpack-cli": "^4.8.0"
+  }
+}
